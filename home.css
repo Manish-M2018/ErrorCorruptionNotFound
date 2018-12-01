@@ -1,0 +1,126 @@
+body{
+  /* background-color:#EDEF9E; */
+  background-image: url('images/p1.png');
+}
+
+.main{
+  height: 950px;
+  width: 900px;
+  font-family: Gill Sans Extrabold, sans-serif;
+}
+
+a:link,a:visited{
+  color:#EE0B31;
+  text-decoration: none;
+
+}
+
+/* a:hover{
+  background-color: #FBF4F5 ;
+} */
+
+
+.header{
+  height: 100px;
+  width: 900px;
+  background-color: #898888;
+}
+
+.logo{
+  padding-top: 5px;
+  height: 90px;
+  width: 200px;
+  float: left;
+}
+
+.social{
+  padding-top: 40px;
+  height: 90px;
+  float: right;
+  width: 350px;
+}
+
+.heading{
+  padding-top: 10px;
+  height: 90px;
+  width: 300px;
+  float: left;
+}
+
+.menu{
+  height: 50px;
+  width: 900px;
+
+}
+
+.content{
+  padding-top: 5px;
+  height: 400px;
+  width: 900px;
+}
+
+.content-left{
+  height: 380px;
+  width: 600px;
+  float: left;
+
+}
+.facts{
+  height: 380px;
+  width: 200px;
+  /* border: 1px outset #008000; */
+  float:right;
+}
+
+.reviews{
+  height: 250px;
+  width: 900px;
+}
+
+.left{
+  height: 230px;
+  width:400px;
+  background-image: url('images/p2.jpg');
+  float:left;
+}
+
+.right{
+  height: 230px;
+  width:400px;
+  background-image: url('images/p2.jpg');
+  float:right;
+}
+
+.footer{
+  height: 100px;
+  width: 900px;
+  background-color: #898888;
+}
+
+
+
+
+
+
+/* top part */
+
+.alert {
+    padding: 20px;
+    background-color: #A3CC32;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
